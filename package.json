@@ -50,7 +50,18 @@
     "email": "luas10c@gmail.com"
   },
   "contributes": {
-    "themes": []
+    "themes": [
+      {
+        "label": "Husky Dark",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/dark.json"
+      },
+      {
+        "label": "Husky Dark Bordered",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/dark-bordered.json"
+      }
+    ]
   },
   "license": "MIT"
 }
