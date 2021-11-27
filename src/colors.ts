@@ -6,7 +6,7 @@ export default (scheme: Scheme, bordered: boolean) => {
     'semanticHighlighting': true,
     'semanticTokenColors': {
       'enumMember': {
-        'foreground': '#356cc2',
+        'foreground': '#2c6acb',
       },
       'variable.constant': {
         'foreground': '#ab5454',
@@ -191,7 +191,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope':
           'punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -212,7 +212,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'support.variable.magic.python',
         'scope': 'support.variable.magic.python',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -241,7 +241,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'support.function.std.rust',
         'scope': 'support.function.std.rust',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -255,7 +255,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'variable.language.rust',
         'scope': 'variable.language.rust',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -269,7 +269,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'regexp constant character-class',
         'scope': 'constant.other.character-class.regexp',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -297,7 +297,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Comment Markup Link',
         'scope': 'comment markup.link',
         'settings': {
-          'foreground': '#515151',
+          'foreground': '#494646',
         },
       },
       {
@@ -312,7 +312,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope':
           'meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -326,14 +326,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'deleted.diff',
         'scope': 'markup.deleted.diff',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'c++ function',
         'scope': 'meta.function.c,meta.function.cpp',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -355,7 +355,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js/ts import keyword',
         'scope': 'keyword.operator.expression.import',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -390,7 +390,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'java source',
         'scope': 'source.java',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -405,7 +405,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'java modifier.import',
         'scope': 'meta.method.java',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -426,28 +426,28 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'java variable.name',
         'scope': 'meta.definition.variable.name.java',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'operator logical',
         'scope': 'keyword.operator.logical',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'operator bitwise',
         'scope': 'keyword.operator.bitwise',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'operator channel',
         'scope': 'keyword.operator.channel',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -461,7 +461,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'CSS/SCSS/LESS Operators',
         'scope': 'keyword.operator.css,keyword.operator.scss,keyword.operator.less',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -490,7 +490,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'css property-name',
         'scope': 'support.type.vendored.property-name.css',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -512,7 +512,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope':
           'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -539,7 +539,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js/ts console',
         'scope': 'support.type.object.console',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -553,7 +553,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js console function',
         'scope': 'entity.name.function,support.function.console',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -581,14 +581,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js dom',
         'scope': 'support.type.object.dom',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'js dom variable',
         'scope': 'support.variable.dom,support.variable.property.dom',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -596,7 +596,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope':
           'keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -625,7 +625,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'C type posix-reserved',
         'scope': 'support.type.posix-reserved.c,support.type.posix-reserved.cpp',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -646,7 +646,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'python type',
         'scope': 'support.type.python',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -675,7 +675,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'python function-call.generic',
         'scope': 'meta.function-call.generic.python',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -703,7 +703,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Compound Assignment Operators js/ts',
         'scope': 'keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -724,7 +724,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Variables',
         'scope': 'variable',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -773,7 +773,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Functions',
         'scope': ['entity.name.function', 'meta.require', 'support.function.any-method', 'variable.function'],
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -808,7 +808,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Class name php',
         'scope': 'variable.other.class.php',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -836,7 +836,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Methods',
         'scope': 'keyword.other.special-method',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -873,7 +873,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Support',
         'scope': 'support.function',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -922,7 +922,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Constant other symbol',
         'scope': 'constant.other.symbol',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -950,7 +950,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Tags',
         'scope': 'entity.name.tag',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -965,7 +965,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope': 'entity.other.attribute-name.id',
         'settings': {
           'fontStyle': 'normal',
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -987,21 +987,21 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Headings',
         'scope': 'markup.heading',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'Headings',
         'scope': 'markup.heading punctuation.definition.heading, entity.name.section',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
         'name': 'Units',
         'scope': 'keyword.other.unit',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1036,21 +1036,21 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': '[VSCODE-CUSTOM] Markdown headings',
         'scope': 'entity.name.section.markdown',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': '[VSCODE-CUSTOM] Markdown heading Punctuation Definition',
         'scope': 'punctuation.definition.heading.markdown',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'punctuation.definition.list.begin.markdown',
         'scope': 'punctuation.definition.list.begin.markdown',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1085,7 +1085,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': '[VSCODE-CUSTOM] Markdown List Punctuation Definition',
         'scope': 'punctuation.definition.list.markdown',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1096,21 +1096,21 @@ export default (scheme: Scheme, bordered: boolean) => {
           'punctuation.definition.metadata.markdown',
         ],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'beginning.punctuation.definition.list.markdown',
         'scope': ['beginning.punctuation.definition.list.markdown'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': '[VSCODE-CUSTOM] Markdown Punctuation Definition Link',
         'scope': 'punctuation.definition.metadata.markdown',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1124,28 +1124,28 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': '[VSCODE-CUSTOM] Markdown Link Title/Description',
         'scope': 'string.other.link.title.markdown,string.other.link.description.markdown',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
         'name': 'Regular Expressions',
         'scope': 'string.regexp',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'Escape Characters',
         'scope': 'constant.character.escape',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'Embedded',
         'scope': 'punctuation.section.embedded, variable.interpolation',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1194,14 +1194,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Source Json Meta Structure Dictionary Json > String Quoted Json',
         'scope': 'source.json meta.structure.dictionary.json > string.quoted.json',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'Source Json Meta Structure Dictionary Json > String Quoted Json > Punctuation String',
         'scope': 'source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1219,21 +1219,21 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope':
           'source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': '[VSCODE-CUSTOM] JSON Property Name',
         'scope': 'support.type.property-name.json',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': '[VSCODE-CUSTOM] JSON Punctuation for Property Name',
         'scope': 'support.type.property-name.json punctuation',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1305,7 +1305,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'php call-function',
         'scope': 'meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -1335,14 +1335,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'php goto',
         'scope': 'entity.name.goto-label.php,support.other.php',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
         'name': 'php logical/bitwise operator',
         'scope': 'keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1356,7 +1356,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'php comparison',
         'scope': 'keyword.operator.comparison.php',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1370,14 +1370,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'python function decorator @',
         'scope': 'meta.function.decorator.python',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
         'name': 'python function support',
         'scope': 'support.token.decorator.python,meta.function.decorator.identifier.python',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1405,14 +1405,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'constant.language.symbol.ruby',
         'scope': 'constant.language.symbol.ruby',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'rgb-value',
         'scope': 'rgb-value',
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1433,7 +1433,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'sass selector',
         'scope': 'selector.sass',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1462,13 +1462,13 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'cs local variable',
         'scope': 'entity.name.variable.local.cs',
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'scope': 'token.info-token',
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -1518,7 +1518,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js Flowtype',
         'scope': ['support.type.type.flowtype'],
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -1532,14 +1532,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js class prop',
         'scope': ['meta.property.object'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'js func parameter',
         'scope': ['variable.parameter.function.js'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1574,7 +1574,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'js operator.assignment',
         'scope': ['keyword.operator.assignment'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1602,7 +1602,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'elm prelude',
         'scope': ['support.type.prelude.elm'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1623,7 +1623,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'html/pug (jade) escaped characters and entities',
         'scope': ['constant.character.entity'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1631,7 +1631,7 @@ export default (scheme: Scheme, bordered: boolean) => {
           'styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour',
         'scope': ['entity.other.attribute-name.pseudo-element', 'entity.other.attribute-name.pseudo-class'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1645,21 +1645,21 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Clojure symbols',
         'scope': ['meta.symbol.clojure'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
         'name': 'Clojure constants',
         'scope': ['constant.keyword.clojure'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'CoffeeScript Function Argument',
         'scope': ['meta.arguments.coffee', 'variable.parameter.function.coffee'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1673,7 +1673,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Makefile prerequisities',
         'scope': ['meta.scope.prerequisites.makefile'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1694,14 +1694,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'Groovy Methods',
         'scope': ['meta.method.groovy'],
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
         'name': 'Groovy Variables',
         'scope': ['meta.definition.variable.name.groovy'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1736,7 +1736,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'SQL Variables',
         'scope': ['text.variable', 'text.bracketed'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1757,14 +1757,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'heading 2, callable',
         'scope': ['entity.name.class.xi'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
         'name': 'heading 3, property',
         'scope': ['constant.character.character-class.regexp.xi'],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1778,7 +1778,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'heading 5, enums, preprocessor, constant, decorator',
         'scope': ['keyword.control.xi'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
@@ -1799,21 +1799,21 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'comments',
         'scope': ['beginning.punctuation.definition.list.markdown.xi'],
         'settings': {
-          'foreground': '#515151',
+          'foreground': '#494646',
         },
       },
       {
         'name': 'link',
         'scope': ['constant.character.xi'],
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
         'name': 'accent',
         'scope': ['accent.xi'],
         'settings': {
-          'foreground': '#d59b71',
+          'foreground': '#db9244',
         },
       },
       {
@@ -1834,7 +1834,7 @@ export default (scheme: Scheme, bordered: boolean) => {
         'name': 'elements to dim',
         'scope': ['punctuation.definition.tag.xi'],
         'settings': {
-          'foreground': '#515151',
+          'foreground': '#494646',
         },
       },
       {
@@ -1856,7 +1856,7 @@ export default (scheme: Scheme, bordered: boolean) => {
           'markup.heading.setext.2.markdown',
         ],
         'settings': {
-          'foreground': '#db9244',
+          'foreground': '#427d7d',
         },
       },
       {
@@ -1871,14 +1871,14 @@ export default (scheme: Scheme, bordered: boolean) => {
         'scope': 'comment, punctuation.definition.comment',
         'settings': {
           'fontStyle': 'italic',
-          'foreground': '#515151',
+          'foreground': '#494646',
         },
       },
       {
         'name': '[VSCODE-CUSTOM] Markdown Quote',
         'scope': 'markup.quote.markdown',
         'settings': {
-          'foreground': '#515151',
+          'foreground': '#494646',
         },
       },
       {
@@ -1891,7 +1891,7 @@ export default (scheme: Scheme, bordered: boolean) => {
       {
         'scope': ['constant.language.symbol.elixir'],
         'settings': {
-          'foreground': '#356cc2',
+          'foreground': '#2c6acb',
         },
       },
       {
