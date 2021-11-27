@@ -11,8 +11,6 @@
 
 &nbsp;
 > ### To build the theme follow the steps below
-
-&nbsp;
 ```zsh
 npm run build
 ```
