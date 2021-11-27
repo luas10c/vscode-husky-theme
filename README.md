@@ -1,0 +1,1 @@
+# Husky Theme for VSCode

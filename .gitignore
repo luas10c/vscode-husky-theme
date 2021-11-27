@@ -1,0 +1,15 @@
+# node_modules
+node_modules
+
+# .vscode files
+.vscode
+.vscode/*
+!.vscodeignore
+
+# Mac files
+.DS_Store
+
+# log and error files
+*-error.json
+*-error.log
+*.log
