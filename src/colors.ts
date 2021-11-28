@@ -37,7 +37,7 @@ export default (scheme: Scheme, bordered: boolean) => {
 
       'list.inactiveSelectionBackground': '#222236',
       'list.hoverBackground': '#222236',
-      'list.activeSectionBackground': '#35822f6e',
+      'list.activeSelectionBackground': '#35822f6e',
       'list.highlightForeground': '#519555',
       'list.dropBackground': '#101424',
       'list.focusBackground': '#35822f6e',
