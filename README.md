@@ -21,8 +21,8 @@
 
 ### Preview Theme
 &nbsp;
-<img src="assets/preview-1.jpg" width="50%"/>
-<img src="assets/preview-2.jpg" width="50%"/>
+<img src="assets/preview-1.jpeg" width="50%"/>
+<img src="assets/preview-2.jpeg" width="50%"/>
 
 &nbsp;
 > ### To build the theme follow the steps below
