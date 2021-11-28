@@ -20,7 +20,7 @@
 </p>
 
 ### Preview Theme
-&nbsp;
+
 <img src="assets/preview-1.jpeg" width="50%"/>
 <img src="assets/preview-2.jpeg" width="50%"/>
 
