@@ -20,9 +20,10 @@
 </p>
 
 ### Preview Theme
-
-<img src="assets/preview-1.jpeg" width="50%"/>
-<img src="assets/preview-2.jpeg" width="50%"/>
+<h1 align="center">
+<img src="assets/preview-1.jpeg" width="80%"/>
+<img src="assets/preview-2.jpeg" width="80%"/>
+</h1>
 
 &nbsp;
 > ### To build the theme follow the steps below
